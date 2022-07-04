@@ -36,4 +36,8 @@ public class TGS_Pack5<A, B, C, D, E> implements IsSerializable {
     public static <A, B, C, D, E> TGS_Pack5<A, B, C, D, E> of(A value0, B value1, C value2, D value3, E value4) {
         return new TGS_Pack5(value0, value1, value2, value3, value4);
     }
+
+    public static <A, B, C, D, E> TGS_Pack5<A, B, C, D, E> of() {
+        return new TGS_Pack5();
+    }
 }

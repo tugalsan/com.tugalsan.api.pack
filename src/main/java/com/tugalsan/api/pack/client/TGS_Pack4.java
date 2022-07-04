@@ -34,4 +34,8 @@ public class TGS_Pack4<A, B, C, D> implements IsSerializable {
     public static <A, B, C, D> TGS_Pack4<A, B, C, D> of(A value0, B value1, C value2, D value3) {
         return new TGS_Pack4(value0, value1, value2, value3);
     }
+
+    public static <A, B, C, D> TGS_Pack4<A, B, C, D> of() {
+        return new TGS_Pack4();
+    }
 }

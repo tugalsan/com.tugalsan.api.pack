@@ -28,4 +28,8 @@ public class TGS_Pack1<A> implements IsSerializable {
     public static <A> TGS_Pack1<A> of(A value0) {
         return new TGS_Pack1(value0);
     }
+
+    public static <A> TGS_Pack1<A> of() {
+        return new TGS_Pack1();
+    }
 }
