@@ -36,4 +36,8 @@ public class TGS_Pack2<A, B> implements IsSerializable {
     public static <A, B> TGS_Pack2<A, B> of(A value0, B value1) {
         return new TGS_Pack2(value0, value1);
     }
+
+    public static <A, B> TGS_Pack2<A, B> of() {
+        return new TGS_Pack2();
+    }
 }
